@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 44px;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -10,23 +15,36 @@
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
-.search-input {
-background: #FFFFFF;
-border: 1px solid #D9D9D9;
-box-sizing: border-box;
-border-radius: 2px;
+.input{
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    height: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 2px;
+    padding: 8px;
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+    padding-left: 35px;
+}
+
+
+.search-address {
+
 width: 690px;
-height: 40px;
-font-size: 16px;
-line-height: 24px;
 background-image: url(../img/home.svg);
-background-repeat: no-repeat;
-background-position: left 11px center;
-padding-left: 35px;
+
 }
 
+.input-search{
+    background-image: url(../img/Vector.svg);
+    width: 306px;
+  
+}
 
 .buttons {
     display: flex;
@@ -60,7 +78,47 @@ padding-left: 35px;
     vertical-align: middle;
 }
 
-.button-text {
-
+.promo {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    background: #FFF1B8;
+    border-radius: 10px;
+    padding: 68px 70px;
+    background-image: url(../img/promo-pizza.png);
+    background-repeat: no-repeat;
+    background-position: top right -200px;
+    background-size: 900px;
+    margin-bottom: 56px;
 }
+
+.promo-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 46px;
+    color: #302c34;
+}
+
+.promo-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    max-width: 538px;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0;
+    color: #000;
+}
+
 
